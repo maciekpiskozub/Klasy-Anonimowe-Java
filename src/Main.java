@@ -1,9 +1,11 @@
 public class Main {
     public static void main(String[] args) {
+
+        int a = 10;
         Zdajacy zdajacy = new Zdajacy() {
             @Override
             public void uczSie() {
-                System.out.println("Ucze sie!!");
+                System.out.printf("Ucze sie przez %d min!!\n", a);
             }
 
             @Override
